@@ -71,3 +71,19 @@ font-weight: 400;
 .answer.active{
     padding-top: 0.5rem;
 }
+@media only screen and (max-width:700px){
+    .head{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:300px){
+    .head{
+        font-size: 0.8rem;
+    }
+    .question{
+        font-size: 0.6rem;
+    }
+    .answer{
+        font-size: 0.5rem;
+    }
+}
